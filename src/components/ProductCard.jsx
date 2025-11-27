@@ -1,13 +1,6 @@
 import { Link } from "react-router-dom";
 
-interface ProductCardProps {
-  id: string;
-  name: string;
-  price: string;
-  image: string;
-}
-
-const ProductCard = ({ id, name, price, image }: ProductCardProps) => {
+const ProductCard = ({ id, name, price, image }) => {
   return (
     <Link to={`/product/${id}`} className="group">
       <div className="bg-card rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
