@@ -31,7 +31,7 @@ const Product = () => {
                 White, romantic, and breathtaking bouquet is composed of an exquisite array of fragrant flowers in a dreamy mix of cream, pink, and white, including lisianthus, tulips, white pink roses and green. Timeless and everlasting, this bouquet is delicately wrapped in elegant paper which pink color, wrapped in jute craft paper, and topped with a bow to say "Wow what a beautiful thought"
               </p>
 
-              <Button className="w-full md:w-auto px-12 h-12 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground">
+              <Button className="px-12 py-3 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground text-base font-medium">
                 Add to cart
               </Button>
             </div>

@@ -54,7 +54,7 @@ const Login = () => {
           <div className="flex flex-col items-center gap-4">
             <Button 
               type="submit"
-              className="w-64 h-14 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground text-lg font-medium"
+              className="px-12 py-3 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground text-base font-medium"
             >
               Log in
             </Button>
